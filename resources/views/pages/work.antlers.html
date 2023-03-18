@@ -1,7 +1,22 @@
-<section class="spacer">
+<section class="spacer" style="text-align: center;">
     <h1>{{title}}</h1>
     
-    <img src="{{main_image}}" alt="{{title}}" class="spacer main_image">
+    {{if main_image}}
+    <img src="{{glide:main_image width='900'}}" alt="{{title}}" class="spacer main_image">
+    {{else}}
+    <div class="swiper carousel spacer">
+        <div class="swiper-wrapper">                                                
+            {{carousel}}
+            <div class="swiper-slide">
+                <img src="{{glide:url width='700'}}" width="100%" alt="{{title}}">
+            </div>
+            {{/carousel}}
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    {{/if}}
 
     
         {{additional_image_s}}
@@ -17,7 +32,7 @@
             <div class="row additional-images">
                 {{image}}
                 <div class="col">
-                    <img src="{{url}}" alt="{{title}}" width="100%">
+                    <img src="{{glide:url width='700'}}" alt="{{title}}" width="100%">
                     <p>{{caption}}</p>
                 </div>
                 {{/image}}
@@ -27,14 +42,14 @@
 
 </section>
 
-<div class="row">
+<div class="row" style="text-align: center;">
     <h2>More work from <span class="highlight">{{parent:title}}</span></h2>
     {{ nav :from="parent:uri" :id:not="id"}}
     {{ unless no_results }}
             <div class="col-md-3">
                 <a href="{{ url }}">
-                    <div class="thumbnail" style="background-image: url({{main_image}});"></div>
-                    <p>{{title}}</p>
+                    <div class="thumbnail" style="background-image: url({{glide:main_image width='300'}});"></div>
+                    <p style="text-align: center;">{{title}}</p>
                 </a>
             </div>
     {{ /unless }}

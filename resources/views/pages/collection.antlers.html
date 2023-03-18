@@ -3,8 +3,8 @@
         {{ unless no_results }}
                 <div class="col-md-3">
                     <a href="{{ url }}">
-                        <div class="thumbnail" style="background-image: url({{main_image}});"></div>
-                        <p>{{title}}</p>
+                        <div class="thumbnail" style="background-image: url({{glide:main_image width='300'}});"></div>
+                        <p style="text-align: center;">{{title}}</p>
                     </a>
                 </div>
         {{ /unless }}
