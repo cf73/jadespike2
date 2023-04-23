@@ -1,6 +1,6 @@
 body {
-  background-color: white;
-  color: #525e56;
+  background-color: rgb(245, 245, 245);
+  color: #3c3f3c;
 }
 
 .padding-top {
@@ -19,12 +19,24 @@ body {
   margin-bottom: 60px;
 }
 
+@font-face {
+  font-family: "Apercu";
+  src: url(/fonts/Apercu/ApercuPro-Medium.woff2) format("woff2"), url(/fonts/apercu/ApercuPro-Medium.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Apercu";
+  font-size: 16px;
+}
+
 a, .nav-link {
-  color: #9758a3;
+  color: #3c3f3c;
   text-decoration: none;
 }
 a:hover, .nav-link:hover {
-  color: #d095db;
+  color: #3c3f3c;
+  text-decoration: underline;
 }
 
 .highlight {
@@ -36,8 +48,13 @@ p {
   color: #b8bab9;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 .active {
-  color: #c3a021;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .thumbnail {

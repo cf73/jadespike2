@@ -1,8 +1,21 @@
+@font-face {
+    font-family: 'Apercu';
+    src: url(/fonts/Apercu/ApercuPro-Medium.woff2) format('woff2'), url(/fonts/apercu/ApercuPro-Medium.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Apercu';
+    font-size: 16px;
+}
+
 a, .nav-link {
-    color: $saphron;
+    color: $light;
     text-decoration: none;
     &:hover {
-        color: $saphron-hover;
+        color: $light;
+        text-decoration: underline;
     }
 }
 .highlight {
@@ -11,4 +24,12 @@ a, .nav-link {
 }
 p {
     color: $light-lighter;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-size: 24px;
 }
