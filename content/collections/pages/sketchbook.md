@@ -1,5 +1,6 @@
 ---
 id: b9876606-4e3d-483b-8df4-84c5f723233b
+published: false
 blueprint: collection
 title: Sketchbook
 parent: f62db977-ebe5-4aa6-ab98-4f0119cbbac4

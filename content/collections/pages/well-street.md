@@ -1,5 +1,6 @@
 ---
 id: 0d417e02-7a3d-463b-b83b-6ecdb7d52954
+published: false
 blueprint: work
 title: 'Well street'
 main_image: well-street---oil-on-linen-(2-parts)(small).jpg

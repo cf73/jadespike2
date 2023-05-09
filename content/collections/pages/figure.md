@@ -1,5 +1,6 @@
 ---
 id: 7182aa56-04d6-466e-9b1e-008c416c1ce6
+published: false
 blueprint: work
 title: Figure
 main_image: figure.jpg

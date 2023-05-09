@@ -1,5 +1,6 @@
 ---
 id: a5a13685-a07d-4e11-8ebc-d1ea1a6a8293
+published: false
 blueprint: work
 title: 'Same table, different day'
 main_image: 'same-table,-different-day-oil-on-canvas-(cropped-small-size)-1677881326.jpg'

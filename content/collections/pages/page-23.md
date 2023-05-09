@@ -1,5 +1,6 @@
 ---
 id: dac13067-2030-4f17-b364-62083326d97a
+published: false
 blueprint: work
 title: 'page 23'
 main_image: page-23-1677277237.JPG

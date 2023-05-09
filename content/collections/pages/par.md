@@ -1,5 +1,6 @@
 ---
 id: fe83cd4b-951d-4c58-832d-454ce2a5371b
+published: false
 blueprint: work
 title: 'Park in the city'
 main_image: park-in-the-city-(cropped)-oil-and-tissue-paper-on-canvas.jpg

@@ -1,5 +1,6 @@
 ---
 id: 2e5c7833-d5c9-4dce-a5d6-9d0e0348ae51
+published: false
 blueprint: work
 title: Tatsu
 main_image: tatsu.jpg

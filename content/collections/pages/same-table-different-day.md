@@ -1,5 +1,6 @@
 ---
 id: bdc770df-9be9-4aea-8a63-a4776ca6fe7e
+published: false
 blueprint: work
 title: 'Same table, different day'
 main_image: 'same-table,-different-day-.jpg'

@@ -1,5 +1,6 @@
 ---
 id: 270eefb5-00fc-47a3-9fcb-41eba55acda0
+published: false
 blueprint: work
 title: 'Four colours'
 main_image: '-tara-versey---four-colours---oil-on-canvas---120cm-x-60cm-x-4cm--2022---3,500.jpg'

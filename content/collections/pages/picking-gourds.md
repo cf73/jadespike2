@@ -1,5 +1,6 @@
 ---
 id: 313c59b3-77b3-4f8b-85ee-2df587dfd841
+published: false
 blueprint: work
 title: 'Picking Gourds'
 main_image: picking-gourds-copy.jpg

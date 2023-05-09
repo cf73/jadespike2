@@ -1,5 +1,6 @@
 ---
 id: 196df16b-6db7-40fd-87f1-d8f364c8b485
+published: false
 blueprint: work
 title: 'page 8'
 main_image: page-8-1677275643.JPG

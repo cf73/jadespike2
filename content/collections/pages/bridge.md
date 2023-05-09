@@ -1,5 +1,6 @@
 ---
 id: 873c88af-fdbd-48f1-814c-955426e70a65
+published: false
 blueprint: work
 title: Bridge
 main_image: bridge-(small).jpg

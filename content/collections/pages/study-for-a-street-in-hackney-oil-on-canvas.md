@@ -1,5 +1,6 @@
 ---
 id: b3ccd712-d5a8-4a88-a81f-aa68e4fc3588
+published: false
 blueprint: work
 title: 'Study for ‘A street in Hackney’'
 main_image: painting-study-for--a-street-in-london-during-the-pandemic-.jpg

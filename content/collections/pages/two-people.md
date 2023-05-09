@@ -1,5 +1,6 @@
 ---
 id: 5effe722-ef55-4e6a-a339-c014676fb45e
+published: false
 blueprint: work
 title: 'Two people'
 main_image: two-people.jpg

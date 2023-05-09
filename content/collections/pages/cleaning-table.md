@@ -1,5 +1,6 @@
 ---
 id: 39a2079b-0331-4187-811e-5b843d95fd01
+published: false
 blueprint: work
 title: 'Cleaning table'
 main_image: cleaning-table.jpg

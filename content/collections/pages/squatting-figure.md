@@ -1,5 +1,6 @@
 ---
 id: 96a82234-3a53-4b11-b30b-2715007ae43e
+published: false
 blueprint: work
 title: 'Squatting figure'
 main_image: squatting-figure.jpg

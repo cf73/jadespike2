@@ -1,5 +1,6 @@
 ---
 id: 4cf832d7-8d20-438e-af35-b22643ab46fb
+published: false
 blueprint: work
 title: Elsewhere
 main_image: elsewhere.jpg
