@@ -16,35 +16,33 @@
         <link rel="stylesheet" href="/css/site.css">
     </head>
     <body>
-        <div class="container padding-bottom_large">
-            <div class="row spacer padding-top">
-                <div class="col-md-4">
-                    Tara Versey
+        <div class="container-fluid padding-bottom_large">
+            <div class="navigation">
+                <div class="logo">
+                    <a href="/">
+                        <h1>Tara Versey</h1>
+                    </a>
                 </div>
+                <ul id="nav" class="navbar-nav me-auto show">
+                    {{ nav include_home="false" }}
+                        <!-- {{ if depth == 1 }} -->
+                            <li class="nav-item">
+                                
+                                <h2 style="margin-top: 1em;">{{ title }}</h2>
+                                    {{ if children }}
+                                        <ul>
+                                            {{ children }}
+                                                <li class="{{ if is_current || is_parent }} active {{ /if }}"><a href="{{ url }}">{{ title }}</a></li>
+                                            {{ /children }}
+                                        </ul>
+                                    {{ /if }}
+                            </li>
+                        <!-- {{/if}} -->
+                    {{ /nav }}
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <ul id="nav" class="navbar-nav me-auto show">
-                        {{ nav include_home="false" }}
-                            <!-- {{ if depth == 1 }} -->
-                                <li class="nav-item">
-                                    <a class="nav-link {{ if is_current || is_parent }} active {{ /if }}" href="{{url}}">
-                                    <h2>{{ title }}</h2>
-                                        {{ if children }}
-                                            <ul>
-                                                {{ children }}
-                                                    <li><a href="{{ url }}">{{ title }}</a></li>
-                                                {{ /children }}
-                                            </ul>
-                                        {{ /if }}
-                                    </a>
-                                </li>
-                            <!-- {{/if}} -->
-                        {{ /nav }}
-                    </ul>
-                </div>
-                <div class="col-md-9">{{ template_content }}</div>
-            </div>
+                
+            <div class="col-md-9 offset-md-3">{{ template_content }}</div>
         </div>
 
          <!-- Swiper JS -->

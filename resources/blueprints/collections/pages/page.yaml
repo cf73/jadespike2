@@ -12,25 +12,20 @@ sections:
           validate:
             - required
       -
-        handle: content
+        handle: home_image
         field:
-          type: markdown
-          display: Content
-          localizable: true
-      -
-        handle: author
-        field:
-          type: users
-          display: Author
-          default: current
-          localizable: true
-          max_items: 1
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Home Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
   sidebar:
     display: Sidebar
     fields:

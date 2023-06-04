@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(255, 255, 255);
   color: #3c3f3c;
 }
 
@@ -19,6 +19,12 @@ body {
   margin-bottom: 60px;
 }
 
+.navigation {
+  position: fixed;
+  top: 10vh;
+  left: 30px;
+}
+
 @font-face {
   font-family: "Apercu";
   src: url(/fonts/Apercu/ApercuPro-Medium.woff2) format("woff2"), url(/fonts/apercu/ApercuPro-Medium.woff) format("woff");
@@ -27,7 +33,7 @@ body {
 }
 body {
   font-family: "Apercu";
-  font-size: 16px;
+  font-size: 14px;
 }
 
 a, .nav-link {
@@ -36,7 +42,6 @@ a, .nav-link {
 }
 a:hover, .nav-link:hover {
   color: #3c3f3c;
-  text-decoration: underline;
 }
 
 .highlight {
@@ -45,16 +50,25 @@ a:hover, .nav-link:hover {
 }
 
 p {
-  color: #b8bab9;
+  color: #9c9c9c;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 14px;
+}
+
+li {
+  list-style-type: none;
 }
 
 .active {
   color: inherit;
-  text-decoration: underline;
+  list-style-type: disclosure-closed;
 }
 
 .thumbnail {

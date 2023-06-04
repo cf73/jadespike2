@@ -1,48 +1,48 @@
-<section class="spacer" style="text-align: center;">
-    <h1>{{title}}</h1>
+<section class="spacer">
+    <!-- <h1>{{title}}</h1> -->
     
     {{if main_image}}
-    <img src="{{glide:main_image width='900'}}" alt="{{title}}" class="spacer main_image">
-    {{else}}
-    <div class="swiper carousel spacer">
-        <div class="swiper-wrapper">                                                
-            {{carousel}}
-            <div class="swiper-slide">
-                <img src="{{glide:url width='700'}}" width="100%" alt="{{title}}">
+        <img src="{{glide:main_image width='900'}}" alt="{{title}}" class="spacer main_image">
+        {{elseif carousel}}
+        <div class="swiper carousel spacer">
+            <div class="swiper-wrapper">                                                
+                {{carousel}}
+                <div class="swiper-slide">
+                    <img src="{{glide:url width='700'}}" width="100%" alt="{{title}}">
+                </div>
+                {{/carousel}}
             </div>
-            {{/carousel}}
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-    </div>
+        {{else}}
     {{/if}}
 
-    
-        {{additional_image_s}}
-            {{ if type == "text" }}
-                <div class="row spacer_small">
-                    <div class="col-md-8 offset-md-2">
-                        <div class="text">
-                            {{ text }}
-                        </div>
+    {{additional_image_s}}
+        {{ if type == "text" }}
+            <div class="row spacer_small">
+                <div class="col-md-8 offset-md-2">
+                    <div class="text">
+                        {{ text }}
                     </div>
                 </div>
-            {{ elseif type == "images" }}
-            <div class="row additional-images">
-                {{image}}
-                <div class="col">
-                    <img src="{{glide:url width='700'}}" alt="{{title}}" width="100%">
-                    <p>{{caption}}</p>
-                </div>
-                {{/image}}
             </div>
-            {{ /if }}
-        {{/additional_image_s}}
+        {{ elseif type == "images" }}
+        <div class="row additional-images">
+            {{image}}
+            <div class="col">
+                <img src="{{glide:url width='700'}}" alt="{{title}}" width="100%" style="margin-bottom: .6em;">
+                <p>{{caption}}</p>
+            </div>
+            {{/image}}
+        </div>
+        {{ /if }}
+    {{/additional_image_s}}
 
 </section>
 
-<div class="row" style="text-align: center;">
+<!-- <div class="row" style="text-align: center;">
     <h2>More work from <span class="highlight">{{parent:title}}</span></h2>
     {{ nav :from="parent:uri" :id:not="id"}}
     {{ unless no_results }}
@@ -55,5 +55,5 @@
     {{ /unless }}
     {{ /nav }}
 </div>
-
+ -->
 

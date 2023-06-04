@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Apercu';
-    font-size: 16px;
+    font-size: 14px;
 }
 
 a, .nav-link {
@@ -15,7 +15,6 @@ a, .nav-link {
     text-decoration: none;
     &:hover {
         color: $light;
-        text-decoration: underline;
     }
 }
 .highlight {
@@ -24,12 +23,18 @@ a, .nav-link {
 }
 p {
     color: $light-lighter;
+    font-weight: 300;
 }
 
 h1 {
-
+    font-size: 48px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+    // margin-left: -40px;
 }

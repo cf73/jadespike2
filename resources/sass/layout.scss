@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
     color: $light;
 }
 .padding-top {
@@ -13,4 +13,9 @@ body {
 }
 .spacer_small {
     margin-bottom: 60px;
+}
+.navigation {
+    position: fixed;
+    top: 10vh;
+    left: 30px;
 }
