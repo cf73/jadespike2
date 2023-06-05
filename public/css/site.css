@@ -77,7 +77,7 @@ h2 {
 
 .active {
   color: inherit;
-  list-style-type: disclosure-closed;
+  list-style-type: disclosure-closed !important;
 }
 
 .thumbnail {
