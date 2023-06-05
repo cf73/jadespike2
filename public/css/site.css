@@ -1,6 +1,7 @@
 body {
   background-color: rgb(255, 255, 255);
   color: #503b59;
+  overflow-x: hidden;
 }
 
 .padding-top {
@@ -101,4 +102,26 @@ li {
 
 .main_image {
   max-width: 100%;
+}
+
+#resume {
+  cursor: pointer;
+}
+
+#drawer {
+  height: 100vw;
+  position: fixed;
+  width: 66vw;
+  right: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.92);
+  z-index: 99;
+  padding: 120px;
+  transform: translate(100%);
+  transition: all 1s;
+}
+
+.show {
+  transform: translate(0%) !important;
+  transition: all 1s;
 }

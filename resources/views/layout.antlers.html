@@ -25,6 +25,7 @@
                 </div>
                 <ul id="nav" class="navbar-nav me-auto show">
                     {{ nav include_home="false" }}
+                        {{ unless exclude_from_nav }}
                         <!-- {{ if depth == 1 }} -->
                             <li class="nav-item">
                                 
@@ -38,12 +39,23 @@
                                     {{ /if }}
                             </li>
                         <!-- {{/if}} -->
+                        {{/unless}}
                     {{ /nav }}
                 </ul>
-                <p>Resume</p>
+                <div id="resume">
+                    <p>Resume</p>
+                </div>
             </div>
                 
             <div class="col-md-9 offset-md-3">{{ template_content }}</div>
+
+            <div id="drawer">
+                {{ get_content from="/resume" }}
+                    <h2>{{title}}</h2>
+                    <p>{{resume_text}}</p>
+                {{ /get_content }}
+            </div>
+
         </div>
 
          <!-- Swiper JS -->
@@ -69,6 +81,17 @@
         <script src="{{ mix src='/js/site.js' }}"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/bs-init.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#resume').click(function() {
+                    $('#drawer').toggleClass('show');
+                });
+                $('#drawer').click(function() {
+                    $(this).toggleClass('show');
+                });
+            });
+        </script>
 
     </body>
 </html>
