@@ -10,12 +10,6 @@ additional_image_s:
     type: images
     enabled: true
   -
-    id: lgy7js38
-    image:
-      - performless.jpg
-    type: images
-    enabled: true
-  -
     id: lgw6uxp9
     image:
       - dark-turns-to-light.jpg
@@ -77,5 +71,5 @@ additional_image_s:
     enabled: true
 parent: ebb5e2ef-9e1a-4ba5-bdaf-3bf7890a3007
 updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1682544519
+updated_at: 1686433256
 ---

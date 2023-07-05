@@ -3,7 +3,7 @@ id: 41a7bd05-e1f6-4c75-81b5-0c5a644bbaac
 published: false
 blueprint: work
 title: Mass
-main_image: mass--full-length.jpg
+main_image: here-(small-file)---oil-on-prepared-paper---78cm-x-106cm-inc-frame.jpg
 parent: 324c00d9-c920-43dc-a796-b3e595477958
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
 updated_at: 1675217205

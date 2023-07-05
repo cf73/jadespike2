@@ -6,19 +6,19 @@ additional_image_s:
   -
     id: lgw6jr5g
     image:
-      - girl-with-ball-1676287990.jpg
+      - girl-with-ball-(small).jpg
     type: images
     enabled: true
   -
     id: lgw8sq0h
     image:
-      - mask.jpg
+      - mask-(small).jpg
     type: images
     enabled: true
   -
     id: lgw8sacp
     image:
-      - violin-player.jpg
+      - violin-player-(small).jpg
     type: images
     enabled: true
   -
@@ -30,7 +30,7 @@ additional_image_s:
   -
     id: lgw6l9kt
     image:
-      - harpist.jpg
+      - harpist-(small).jpg
     type: images
     enabled: true
   -

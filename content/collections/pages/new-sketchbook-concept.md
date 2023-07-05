@@ -1,5 +1,6 @@
 ---
 id: 5f746147-1551-4551-a0ee-6dec022f75d0
+published: false
 blueprint: work
 title: 'New sketchbook concept'
 carousel:
@@ -70,5 +71,5 @@ additional_image_s:
     type: text
     enabled: true
 updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1682426715
+updated_at: 1688072534
 ---

@@ -10,6 +10,12 @@ additional_image_s:
     type: images
     enabled: true
   -
+    id: lixtd5y4
+    image:
+      - img_3108.jpg
+    type: images
+    enabled: true
+  -
     id: liosqzhy
     image:
       - stella-in-her-mask-(cropped)---pencil-and-watercolour.jpg
@@ -37,7 +43,13 @@ additional_image_s:
     id: lioszvkv
     type: images
     enabled: true
+    image:
+      - self-portrait-charcoal-.jpg
+  -
+    id: lipvtm0x
+    type: images
+    enabled: true
 parent: 81b57bbb-162f-47be-8b4e-8e882ae14e0e
 updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1686329456
+updated_at: 1686874339
 ---
