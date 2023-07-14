@@ -33,32 +33,8 @@ additional_image_s:
       - harpist-(small).jpg
     type: images
     enabled: true
-  -
-    id: lgw6vnp6
-    type: images
-    enabled: true
-  -
-    id: lgw6w5jy
-    type: images
-    enabled: true
-  -
-    id: lgw6wji4
-    type: images
-    enabled: true
-  -
-    id: lgw6z9jr
-    type: images
-    enabled: true
-  -
-    id: lgw70p22
-    type: images
-    enabled: true
-  -
-    id: lgw71f80
-    type: images
-    enabled: true
 parent: ebb5e2ef-9e1a-4ba5-bdaf-3bf7890a3007
 updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1682425751
+updated_at: 1688588160
 duplicated_from: 6ab23752-ebc9-44cd-8171-17bde46ff2d5
 ---

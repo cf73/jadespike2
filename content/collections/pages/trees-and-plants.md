@@ -4,12 +4,12 @@ blueprint: work
 title: 'Trees and plants'
 parent: 81b57bbb-162f-47be-8b4e-8e882ae14e0e
 updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1688079547
+updated_at: 1688586863
 additional_image_s:
   -
     id: liq459r2
     image:
-      - "'unconfined'-tara-versey---pastel-on-paper.-20cm-x-28cm.jpg"
+      - dumfries-tree---pastel-on-paper-(small-file).jpg
     type: images
     enabled: true
   -
@@ -21,7 +21,7 @@ additional_image_s:
   -
     id: liqhez5q
     image:
-      - tree-group.jpg
+      - tree-group---les-bassacs---(small-size)-pastel-on-paper.jpg
     type: images
     enabled: true
   -
@@ -33,13 +33,13 @@ additional_image_s:
   -
     id: liqhpob1
     image:
-      - tree-group-6.jpg
+      - red-trees---les-basaacs-(small-file)-.jpg
     type: images
     enabled: true
   -
     id: liqhqboh
     image:
-      - woods-les-bassacs-1-.jpg
+      - '-woodland-trees---les-bassacs--(small-file)-pastel-on-paper.jpg'
     type: images
     enabled: true
   -
@@ -49,6 +49,13 @@ additional_image_s:
     type: images
     enabled: true
     caption: 'Tree group - Les Bassacs - Pastel on paper'
+  -
+    id: ljq500ym
+    image:
+      - two-red-trees---les-basaacs---(small-file)-pastel-on-paper.jpg
+    type: images
+    enabled: true
+    caption: 'Two trees - Les Bassacs - Pastel on paper'
   -
     id: liq46zee
     image:
