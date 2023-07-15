@@ -3,7 +3,7 @@ id: a2860592-4e9c-4b7b-9740-459547bada20
 blueprint: resume
 title: About
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1689452095
+updated_at: 1689452353
 resume_text:
   -
     type: paragraph
@@ -243,95 +243,190 @@ resume_text:
                 type: text
                 text: "Lynn Painter-Stainers Prize- shortlisted\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2014\_\_\_\_\_\_\_\_\_\_\_\_\_\_ - Group show – Arcane studios - The Oval"
+        text: '2014'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "2013\_\_\_\_\_\_\_\_\_\_\_\_\_\_ - Shortlisted for the Dennis Mahon Award\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Group show – Arcane studios - The Oval'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2012\_\_\_\_\_\_\_\_\_\_\_\_\_\_ - Portrait commission of RAF Battle of Britain veteran"
+        text: '2013'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_Michael Wainwright- Commissioned by Clarence House"
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Shortlisted for the Dennis Mahon Award\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2011\_\_\_\_\_\_ \_\_\_\_\_\_\_ - Drawing in Paris – Galleries and the Van Cleef and Arpels jewellery"
+        text: '2012'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_workshops to celebrate 10 years of The Royal Drawing School."
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Portrait commission of RAF Battle of Britain veteran Michael Wainwright- Commissioned by Clarence House'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_Exhibited at Buckingham Palace"
+        text: '2011'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "2010\_\_\_\_\_\_\_\_\_\_\_\_\_  \_- Richard Ford Award"
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Drawing in Paris – Galleries and the Van Cleef and Arpels jewellery workshops to celebrate 10 years of The Royal Drawing School.'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Exhibited at Buckingham Palace'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  A month long residency drawing in the Prado Museum – Madrid"
+        text: '2010'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ final recipient of prize\_\_\_\_\_\_"
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Richard Ford Award'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A month long residency drawing in the Prado Museum – Madrid. Final recipient of prize\_\_\_\_\_\_"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2009\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ - CASSA art Group show – Royal Arcade Gallery- The Mall"
+        text: '2009'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Chris Rowley Degree show award"
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'CASSA art Group show – Royal Arcade Gallery- The Mall'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Chris Rowley Degree show award'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2008\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ - Ellenor Clarkson Prize"
+        text: '2008'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_- Residency exchange with students from the Zagreb Art Academy-"
-  -
-    type: paragraph
-    content:
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Ellenor Clarkson Prize'
       -
-        type: text
-        text: "  \_                      - Group show- \_Galleria Miroslavic`- Zagreb and the Cass - London"
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Residency exchange with students from the Zagreb Art Academy'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Group show -\_Galleria Miroslavic` - Zagreb and the Cass - London"
   -
     type: paragraph
   -
@@ -348,6 +443,14 @@ resume_text:
     content:
       -
         type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'mailto:taraversey@gmail.com'
+              rel: null
+              target: null
+              title: null
         text: taraversey@gmail.com
   -
     type: paragraph
