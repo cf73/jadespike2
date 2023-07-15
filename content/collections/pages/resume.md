@@ -3,7 +3,7 @@ id: a2860592-4e9c-4b7b-9740-459547bada20
 blueprint: resume
 title: About
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1689451856
+updated_at: 1689452095
 resume_text:
   -
     type: paragraph
@@ -82,8 +82,6 @@ resume_text:
                 type: text
                 text: 'Commission of three paintings for the Peninsula Hotel-London'
   -
-    type: paragraph
-  -
     type: heading
     attrs:
       level: 3
@@ -103,8 +101,6 @@ resume_text:
               -
                 type: text
                 text: 'RBA annual exhibition – Painting received the Surgeon’s prize'
-  -
-    type: paragraph
   -
     type: heading
     attrs:
@@ -144,48 +140,108 @@ resume_text:
                 type: text
                 text: 'RBA Rising Stars exhibition – ROSL'
   -
-    type: paragraph
-  -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2018\_\_\_\_\_\_\_\_\_\_\_\_\_ - ‘Crowded Solitude - Mercer Chance gallery – Hoxton Street"
+        text: '2018'
   -
-    type: paragraph
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '‘Crowded Solitude - Mercer Chance gallery – Hoxton Street'
+  -
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2017\_\_\_\_\_\_\_\_\_\_\_\_\_ - 3 month residency – Provence -Les Bassacs"
+        text: '2017'
   -
-    type: paragraph
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '3 month residency – Provence -Les Bassacs'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '1 month residency – Borgo Pignano and Siena'
+  -
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_- 1 month residency – Borgo Pignano and Siena"
+        text: '2016'
   -
-    type: paragraph
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Group show- The Masters – Etching-Bankside Gallery'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '1 month residency - Dumfries House- Scotland'
+  -
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: "2016\_\_\_\_\_\_\_\_\_\_\_\_\_ - Group show- The Masters – Etching-Bankside Gallery"
+        text: '2015'
   -
-    type: paragraph
+    type: bulletList
     content:
       -
-        type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_- 1 month residency - Dumfries House- Scotland"
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "2015\_\_\_\_\_\_\_\_\_\_\_\_\_\_ - Artist residency at Borgo Pignano – Italy"
-      -
-        type: hardBreak
-      -
-        type: text
-        text: "\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ - Lynn Painter-Stainers Prize- shortlisted\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Artist residency at Borgo Pignano – Italy'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: "Lynn Painter-Stainers Prize- shortlisted\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_"
   -
     type: paragraph
     content:
