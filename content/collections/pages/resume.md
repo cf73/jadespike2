@@ -3,7 +3,7 @@ id: a2860592-4e9c-4b7b-9740-459547bada20
 blueprint: resume
 title: About
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1689451726
+updated_at: 1689451779
 resume_text:
   -
     type: paragraph
@@ -11,6 +11,8 @@ resume_text:
       -
         type: text
         text: 'Tara lives and works in London. Her work takes the form of painting, etching and occasionally 3-dimensional works, which all stem from drawing. The act of working and the work itself is an ongoing transformative process. Primarily it is the potential of the space, materials and colour that intrigues her, with which she explores ideas of tension, opposites, rhythm and felt experiences of living in this world. With an interest in the dialogue of these parts the materials are in a way metaphorical, providing a means for reflection and balance.'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -50,6 +52,8 @@ resume_text:
           -
             type: italic
         text: '2003 - Camberwell College of Art - Diploma in Foundation Studies in Art and Design'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
