@@ -20,7 +20,7 @@
             <div class="navigation">
                 <div class="logo">
                     <a href="/">
-                        <h1>Tara Versey</h1>
+                        <h2>Tara Versey</h2>
                     </a>
                 </div>
                 <ul id="nav" class="navbar-nav me-auto show">
@@ -43,15 +43,14 @@
                     {{ /nav }}
                 </ul>
                 <div id="resume">
-                    <p>Resume</p>
+                    <p>About</p>
                 </div>
             </div>
                 
-            <div class="col-md-9 offset-md-3">{{ template_content }}</div>
+            <div class="col-md-9 offset-md-3" id="content">{{ template_content }}</div>
 
             <div id="drawer">
                 {{ get_content from="/resume" }}
-                    <h2>{{title}}</h2>
                     <p>{{resume_text}}</p>
                 {{ /get_content }}
             </div>
@@ -86,9 +85,13 @@
             $(document).ready(function() {
                 $('#resume').click(function() {
                     $('#drawer').toggleClass('show');
+                    $('.navigation, #content').toggleClass('blur');
+                    $('body').toggleClass('dim');
                 });
                 $('#drawer').click(function() {
                     $(this).toggleClass('show');
+                    $('.navigation, #content').toggleClass('blur');
+                    $('body').toggleClass('dim');
                 });
             });
         </script>

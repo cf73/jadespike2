@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Apercu';
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a, .nav-link {
@@ -25,15 +25,23 @@ p {
     color: $light-lighter;
     font-weight: 300;
 }
-
+li p {
+    margin-bottom: 0;
+}
 h1 {
     font-size: 36px;
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 24px;
+    margin-top: 2em;
 }
-
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1.5em;
+    padding-top: 1em;
+}
 .navigation li {
     list-style-type: none;
     // margin-left: -40px;

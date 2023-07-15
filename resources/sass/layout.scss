@@ -1,7 +1,8 @@
 body {
     background-color: rgb(255, 255, 255);
-    color: $light;
+    color: $light-lighter;
     overflow-x: hidden;
+    transition: all 2s;
 }
 .padding-top {
     padding-top: 30px;

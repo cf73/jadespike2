@@ -1,7 +1,8 @@
 body {
   background-color: rgb(255, 255, 255);
-  color: #503b59;
+  color: #525252;
   overflow-x: hidden;
+  transition: all 2s;
 }
 
 .padding-top {
@@ -42,7 +43,7 @@ ul {
 }
 body {
   font-family: "Apercu";
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a, .nav-link {
@@ -59,8 +60,12 @@ a:hover, .nav-link:hover {
 }
 
 p {
-  color: #ababab;
+  color: #525252;
   font-weight: 300;
+}
+
+li p {
+  margin-bottom: 0;
 }
 
 h1 {
@@ -68,7 +73,15 @@ h1 {
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 24px;
+  margin-top: 2em;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 1.5em;
+  padding-top: 1em;
 }
 
 .navigation li {
@@ -108,17 +121,30 @@ h2 {
   cursor: pointer;
 }
 
+.blur {
+  filter: blur(12px);
+  transition: all 2s;
+}
+
+.dim {
+  background-color: #efefef;
+  overflow-y: hidden;
+  transition: all 2s;
+}
+
 #drawer {
-  height: 100vw;
+  height: 100vh;
   position: fixed;
   width: 66vw;
   right: 0;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.86);
   z-index: 99;
   padding: 120px;
   transform: translate(100%);
   transition: all 1s;
+  overflow-y: scroll;
+  filter: blur(0px) !important;
 }
 
 .show {
