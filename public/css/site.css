@@ -121,6 +121,17 @@ h3 {
   cursor: pointer;
 }
 
+.navigation {
+  opacity: 0.6;
+  filter: blur(12px);
+  transition: all 0.5s;
+}
+.navigation:hover {
+  opacity: 1;
+  filter: blur(0px);
+  transition: all 0.5s;
+}
+
 .blur {
   filter: blur(12px);
   transition: all 2s;
