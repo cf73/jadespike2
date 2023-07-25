@@ -1,10 +1,10 @@
 ---
 id: 1b47833f-4710-4dd5-9b30-391fc908a412
 blueprint: work
-title: 'Trees and plants'
+title: Nature
 parent: 81b57bbb-162f-47be-8b4e-8e882ae14e0e
-updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1688586863
+updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
+updated_at: 1690293205
 additional_image_s:
   -
     id: liq459r2
