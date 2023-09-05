@@ -9,67 +9,98 @@ additional_image_s:
       - performless-ve.jpg
     type: images
     enabled: true
+    caption: |-
+      Performless
+      Multiplate colour etching
   -
     id: lgw6uxp9
     image:
       - dark-turns-to-light.jpg
     type: images
     enabled: true
+    caption: |-
+      Dark turns to Light
+      Etching
   -
     id: lgw6l9kt
     image:
       - working-reflection-2.jpg
     type: images
     enabled: true
+    caption: |-
+      Working reflection
+      Etching
   -
     id: lgw6vnp6
     image:
       - his-own-world.jpg
     type: images
     enabled: true
+    caption: |-
+      Close up
+      Etching
   -
     id: lgw6w5jy
     image:
       - keep-the-door-open.jpg
     type: images
     enabled: true
+    caption: |-
+      Keep the door open 
+      Etching
   -
     id: lgw6wji4
     image:
       - 'same-table,-different-day.jpg'
     type: images
     enabled: true
+    caption: |-
+      Same table, different day
+      Etching
   -
     id: lgw6z9jr
     image:
       - studio.jpg
     type: images
     enabled: true
+    caption: |-
+      Silent Company
+      Etching
   -
     id: lgw70p22
     image:
       - thought.jpg
     type: images
     enabled: true
+    caption: |-
+      Thoughts
+      Etching
   -
     id: lgy6ts1m
     image:
       - city-daydreamer-2.jpg
     type: images
     enabled: true
+    caption: 'City set'
   -
     id: lgw71f80
     image:
       - mask-1682543254.jpg
     type: images
     enabled: true
+    caption: |-
+      Masked lady
+      Etching
   -
     id: lgy51eaw
     image:
       - crystal-and-cats.jpg
     type: images
     enabled: true
+    caption: |-
+      Stage set
+      Etching
 parent: ebb5e2ef-9e1a-4ba5-bdaf-3bf7890a3007
 updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1686433256
+updated_at: 1691258328
 ---
