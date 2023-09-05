@@ -1,7 +1,7 @@
 ---
 id: 4397c6bb-d98c-4136-9f5a-a01a2a06186d
 blueprint: work
-title: Micellaneous
+title: Fragments
 additional_image_s:
   -
     id: ljhoo6zo
@@ -80,7 +80,21 @@ additional_image_s:
     caption: 'Life room - Etching on copper - printed on Hanhnemuhle paper'
     type: images
     enabled: true
+  -
+    id: lky7oeud
+    image:
+      - baby-(small-file).jpg
+    caption: 'Baby - Etching and aquatint'
+    type: images
+    enabled: true
+  -
+    id: lky7pfi0
+    image:
+      - baby-in-jar-(small-file)-drypoint.jpg
+    caption: 'Baby II - Drypoint on steel'
+    type: images
+    enabled: true
 parent: ebb5e2ef-9e1a-4ba5-bdaf-3bf7890a3007
 updated_by: 7fc42862-88cf-4231-8a06-3e1f93ee1fbb
-updated_at: 1688078900
+updated_at: 1691252126
 ---
