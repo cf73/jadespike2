@@ -29,7 +29,8 @@
                         <!-- {{ if depth == 1 }} -->
                             <li class="nav-item">
                                 
-                                <h2 style="margin-top: 2em;">{{ title }}</h2>
+                                <h2 style="margin-top: 2em;"><a href="{{url}}">{{ title }}</a></h2>
+                                {{ if is_current || is_parent }}
                                     {{ if children }}
                                         <ul>
                                             {{ children }}
@@ -37,7 +38,8 @@
                                             {{ /children }}
                                         </ul>
                                     {{ /if }}
-                            </li>
+                                {{/if}}
+                                </li>
                         <!-- {{/if}} -->
                         {{/unless}}
                     {{ /nav }}
