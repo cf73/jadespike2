@@ -485,5 +485,4 @@ resume_text:
     type: paragraph
   -
     type: paragraph
-exclude_from_nav: 'true'
 ---

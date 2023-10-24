@@ -31,13 +31,8 @@
     cursor: pointer;
 }
 .navigation {
-    opacity: .6;
-    filter: blur(12px);
-    transition: all .5s;
     &:hover {
-        opacity: 1;
-        filter: blur(0px);
-        transition: all .5s;
+        
     }
 }
 .blur {

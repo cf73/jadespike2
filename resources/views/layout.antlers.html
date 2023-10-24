@@ -13,23 +13,30 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
+        <link rel="stylesheet" href="https://use.typekit.net/bqt6feh.css">
+
         <link rel="stylesheet" href="/css/site.css">
     </head>
     <body>
         <div class="container-fluid padding-bottom_large">
-            <div class="navigation">
-                <div class="logo">
-                    <a href="/">
-                        <h2>Tara Versey</h2>
-                    </a>
-                </div>
-                <ul id="nav" class="navbar-nav me-auto show">
-                    {{ nav include_home="false" }}
+            <nav>
+                <div class="navbar">
+                  <div class="container-fluid nav-container">
+                      <input class="checkbox" type="checkbox" name="" id="" />
+                      <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                      </div>  
+                    <div class="menu-items">
+                            <a href="/">
+                                <h2 style="font-weight: 700; margin-bottom: 1em;">Tara Versey</h2>
+                            </a>
+                        {{ nav include_home="false" }}
                         {{ unless exclude_from_nav }}
                         <!-- {{ if depth == 1 }} -->
                             <li class="nav-item">
-                                
-                                <h2 style="margin-top: 2em;"><a href="{{url}}">{{ title }}</a></h2>
+                                <h2><a href="{{url}}">{{ title }}</a></h2>
                                 {{ if is_current || is_parent }}
                                     {{ if children }}
                                         <ul>
@@ -43,11 +50,11 @@
                         <!-- {{/if}} -->
                         {{/unless}}
                     {{ /nav }}
-                </ul>
-                <div id="resume">
-                    <p>About</p>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </nav>
+           
                 
             <div class="col-md-9 offset-md-3" id="content">{{ template_content }}</div>
 
