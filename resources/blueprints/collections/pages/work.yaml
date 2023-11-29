@@ -139,6 +139,19 @@ sections:
               display: File
               fields:
                 -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    validate:
+                      - required
+                -
                   handle: file
                   field:
                     mode: list
@@ -153,6 +166,8 @@ sections:
                     listable: hidden
                     instructions_position: above
                     visibility: visible
+                    validate:
+                      - required
           display: 'Additional content'
           type: replicator
           icon: replicator
