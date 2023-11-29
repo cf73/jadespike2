@@ -17,7 +17,13 @@ additional_image_s:
         content:
           -
             type: text
-            text: 'Education '
+            marks:
+              -
+                type: bold
+            text: Education
+          -
+            type: text
+            text: ' '
       -
         type: paragraph
         content:
@@ -36,15 +42,23 @@ additional_image_s:
             text: '2003 - Camberwell College of Art - Diploma in Foundation Studies in Art and Design'
       -
         type: paragraph
+      -
+        type: paragraph
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: 'Exhibitions - Commissions - Awards - Residencies '
       -
         type: paragraph
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2021'
       -
         type: bulletList
@@ -81,6 +95,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2020'
       -
         type: bulletList
@@ -99,6 +116,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2019'
       -
         type: bulletList
@@ -135,6 +155,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2018'
       -
         type: bulletList
@@ -153,6 +176,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2017'
       -
         type: bulletList
@@ -180,6 +206,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2016'
       -
         type: bulletList
@@ -207,6 +236,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2015'
       -
         type: bulletList
@@ -230,6 +262,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2014'
       -
         type: bulletList
@@ -248,6 +283,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2013'
       -
         type: bulletList
@@ -266,6 +304,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2012'
       -
         type: bulletList
@@ -284,6 +325,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2011'
       -
         type: bulletList
@@ -311,6 +355,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2010'
       -
         type: bulletList
@@ -338,6 +385,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2009'
       -
         type: bulletList
@@ -365,6 +415,9 @@ additional_image_s:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: '2008'
       -
         type: bulletList
@@ -453,5 +506,5 @@ additional_image_s:
     type: text
     enabled: true
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1701221689
+updated_at: 1701221769
 ---
