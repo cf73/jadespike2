@@ -1,6 +1,10 @@
   .navigation {
     width: 100vw;
   }
+  .navbar .menu-items {
+    backdrop-filter: blur(10px);
+    background-color: #ffffffab;
+  }
   .mainmenu, .submenu {
     list-style: none;
     padding: 0;
