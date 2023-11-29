@@ -495,6 +495,7 @@ additional_image_s:
     file: crowded-solitude-press-release.pdf
     type: file
     enabled: true
+    title: 'Press Release'
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1701223396
+updated_at: 1701223582
 ---
