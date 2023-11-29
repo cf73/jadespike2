@@ -114,6 +114,7 @@ sections:
                       - removeformat
                       - quote
                       - anchor
+                      - horizontalrule
                     save_html: false
                     inline: false
                     toolbar_mode: fixed
