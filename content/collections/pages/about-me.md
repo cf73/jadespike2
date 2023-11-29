@@ -488,25 +488,13 @@ additional_image_s:
           -
             type: text
             text: '@tarajprints'
-      -
-        type: paragraph
-      -
-        type: paragraph
-      -
-        type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: hardBreak
-          -
-            type: hardBreak
-      -
-        type: paragraph
-      -
-        type: paragraph
     type: text
     enabled: true
+  -
+    id: lpj4h9rx
+    file: crowded-solitude-press-release.pdf
+    type: file
+    enabled: true
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1701221943
+updated_at: 1701223396
 ---
