@@ -7,7 +7,7 @@ body {
 }
 
 .padding-top {
-  padding-top: 30px;
+  padding-top: 90px;
 }
 
 .padding-bottom_large {
@@ -212,6 +212,15 @@ p {
   font-weight: 300;
 }
 
+hr {
+  position: relative;
+  z-index: -999999;
+}
+
+strong {
+  font-weight: 800;
+}
+
 li p {
   margin-bottom: 0;
 }
@@ -242,6 +251,10 @@ h3 {
 .active {
   color: inherit;
   list-style-type: disclosure-closed !important;
+}
+
+.navbar {
+  padding-top: 0;
 }
 
 .thumbnail {
@@ -371,7 +384,7 @@ h3 {
 }
 
 .navigation {
-  width: 300px;
+  width: 100vw;
 }
 
 .mainmenu, .submenu {

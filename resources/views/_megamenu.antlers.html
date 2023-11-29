@@ -1,7 +1,6 @@
 <nav class="navigation">
   <ul class="mainmenu">
     {{nav:collection:pages}}
-     
       {{if children}}
           <li><input type="checkbox" id="{{title}}">
             <label for="{{title}}"><h2>{{title}}</h2></label>
@@ -11,6 +10,10 @@
               {{ /children }}
             </ul>
           </li>
+          {{else}}
+          <a href="{{ url }}"{{ if is_current || is_parent }} class="current"{{ /if }}>
+            <li><h2>{{ title }}</h2></li>
+        </a>
       {{/if}}
     {{/nav:collection:pages}}
   </ul>

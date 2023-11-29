@@ -22,7 +22,7 @@
     {{additional_image_s}}
         {{ if type == "text" }}
             <div class="row spacer_small">
-                <div class="col-md-8 offset-md-2">
+                <div class="col-md-8">
                     <div class="text">
                         {{ text }}
                     </div>
@@ -36,6 +36,13 @@
                 <p class="caption">{{caption}}</p>
             </div>
             {{/image}}
+        </div>
+        {{ elseif type == "file" }}
+        <div class="row">
+            <div class="col-md-8">
+                <hr>
+                <li><a href="{{file}}" style="text-decoration: underline;" target="_blank">{{title}}</a></li>
+            </div>
         </div>
         {{ /if }}
     {{/additional_image_s}}

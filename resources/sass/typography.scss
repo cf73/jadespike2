@@ -48,6 +48,13 @@ p {
     color: $light-lighter;
     font-weight: 300;
 }
+hr {
+    position: relative;
+    z-index: -999999;
+}
+strong {
+    font-weight: 800;
+}
 li p {
     margin-bottom: 0;
 }
