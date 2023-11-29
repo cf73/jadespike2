@@ -1,7 +1,7 @@
 ---
 id: 85a1cbc1-3261-4517-9bee-00a67d7fd788
 blueprint: work
-title: 'About Me'
+title: About
 additional_image_s:
   -
     id: lpj3gg90
@@ -497,5 +497,5 @@ additional_image_s:
     enabled: true
     title: 'Press Release'
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1701223582
+updated_at: 1701223784
 ---
