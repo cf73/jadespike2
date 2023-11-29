@@ -3,9 +3,9 @@ id: home
 blueprint: pages
 title: Home
 template: home
-home_image: "'keep-the-door-open'--tara-versey.-30cm-x-22cm-etching--1682422753.jpg"
+home_image: painted-face-at-night---oil-on-gesso-board.jpg
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1685915080
+updated_at: 1701225782
 ---
 ## Welcome to your brand new Statamic site!
 
