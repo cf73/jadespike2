@@ -3,7 +3,7 @@ id: a2860592-4e9c-4b7b-9740-459547bada20
 blueprint: resume
 title: About
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1689452460
+updated_at: 1701221937
 resume_text:
   -
     type: paragraph
