@@ -29,27 +29,10 @@
                         <span class="line line3"></span>
                       </div>  
                     <div class="menu-items">
-                            <a href="/">
-                                <h2 style="font-weight: 700; margin-bottom: 1em;">Tara Versey</h2>
-                            </a>
-                        {{ nav include_home="false" }}
-                        {{ unless exclude_from_nav }}
-                        <!-- {{ if depth == 1 }} -->
-                            <li class="nav-item">
-                                <h2><a href="{{url}}">{{ title }}</a></h2>
-                                {{ if is_current || is_parent }}
-                                    {{ if children }}
-                                        <ul>
-                                            {{ children }}
-                                                <li class="{{ if is_current || is_parent }} active {{ /if }}"><a href="{{ url }}">{{ title }}</a></li>
-                                            {{ /children }}
-                                        </ul>
-                                    {{ /if }}
-                                {{/if}}
-                                </li>
-                        <!-- {{/if}} -->
-                        {{/unless}}
-                    {{ /nav }}
+                        <a href="/">
+                            <h2 style="font-weight: 700; margin-bottom: 1em;">Tara Versey</h2>
+                        </a>
+                        {{partial:megamenu}}
                     </div>
                   </div>
                 </div>

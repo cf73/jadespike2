@@ -1,0 +1,42 @@
+<div class="navigation">
+    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+        {{nav:collection:pages}}
+        <div class="menu">
+            <a href="{{ url }}"{{ if is_current || is_parent }} class="current"{{ /if }}>
+                <h3>{{ title }}</h3>
+            </a>
+            {{if children}}
+                <div class="dropdown">
+                    <p>{{section_summary}}</p>
+                    {{ children }}
+                        <div class="dropdown-child">
+                            <a href="{{url}}">
+                                <h4>{{title}}</h4>
+                            </a>
+                            <!-- {{if children}}
+                            <div class="dropdown-grandchild" style="overflow: scroll;">
+                                <div>
+                                    {{children}}
+                                        <a href="{{url}}">
+                                            <div>
+                                                <h4>{{title}}</h4>
+                                                <p>{{summary}}</p>
+                                                <img src="{{thumbnail_image}}" width="50%" alt="">
+                                            </div>
+                                        </a>
+                                    {{/children}}
+                                </div>
+                            </div>
+                            {{else}}
+                            <div class="dropdown-grandchild">
+                                <h1>nada</h1>
+                            </div>
+                            {{/if}} -->
+                        </div>
+                    {{ /children }}
+                </div>    
+            {{/if}}
+        </div>
+    {{/nav:collection:pages}}
+    </div>
+</div>

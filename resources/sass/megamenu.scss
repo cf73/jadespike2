@@ -1,0 +1,40 @@
+.navigation {
+    width: 300px;
+  }
+  .mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .mainmenu a, .mainmenu label {
+    display: block;
+    // background-color: #CCC;
+    text-decoration: none;
+    padding: 10px;
+    // color: #000;
+  }
+  .mainmenu a:hover, .mainmenu label:hover {
+    //   background-color: #C5C5C5;
+  }
+  
+  /* hide the input */
+  .mainmenu input {
+    display: none;
+  }
+  /* if a sibling checkbox is check show the menu */
+  .mainmenu input:checked ~ .submenu {
+    display: block;
+    max-height: 200px;
+  }
+  .submenu a, .submenu label {
+    // background-color: #999;
+  }
+  .submenu a:hover {
+    // background-color: #666;
+  }
+  .submenu {
+    overflow: hidden;
+    max-height: 0;
+    margin-left: 30px;
+    transition: all 0.5s ease-out;
+  }

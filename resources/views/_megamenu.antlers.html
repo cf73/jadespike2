@@ -1,0 +1,17 @@
+<nav class="navigation">
+  <ul class="mainmenu">
+    {{nav:collection:pages}}
+     
+      {{if children}}
+          <li><input type="checkbox" id="{{title}}">
+            <label for="{{title}}"><h2>{{title}}</h2></label>
+            <ul class="submenu">
+              {{ children }}
+              <li><a href="{{url}}">{{title}}</a></li>
+              {{ /children }}
+            </ul>
+          </li>
+      {{/if}}
+    {{/nav:collection:pages}}
+  </ul>
+</nav>
