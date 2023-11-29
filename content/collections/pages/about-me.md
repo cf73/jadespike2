@@ -13,6 +13,8 @@ additional_image_s:
             type: text
             text: 'Tara lives and works in London. Her work takes the form of painting, etching and occasionally 3-dimensional works, which all stem from drawing. The act of working and the work itself is an ongoing transformative process. Primarily it is the potential of the space, materials and colour that intrigues her, with which she explores ideas of tension, opposites, rhythm and felt experiences of living in this world. With an interest in the dialogue of these parts the materials are in a way metaphorical, providing a means for reflection and balance.'
       -
+        type: horizontalRule
+      -
         type: paragraph
         content:
           -
@@ -41,7 +43,7 @@ additional_image_s:
             type: text
             text: '2003 - Camberwell College of Art - Diploma in Foundation Studies in Art and Design'
       -
-        type: paragraph
+        type: horizontalRule
       -
         type: paragraph
         content:
@@ -450,7 +452,7 @@ additional_image_s:
                     type: text
                     text: "Group show -\_Galleria Miroslavic` - Zagreb and the Cass - London"
       -
-        type: paragraph
+        type: horizontalRule
       -
         type: paragraph
         content:
@@ -506,5 +508,5 @@ additional_image_s:
     type: text
     enabled: true
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1701221769
+updated_at: 1701221843
 ---
