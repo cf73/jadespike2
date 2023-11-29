@@ -4,6 +4,12 @@ blueprint: work
 title: About
 additional_image_s:
   -
+    id: lpj61rsq
+    image:
+      - '-flowers.jpg'
+    type: images
+    enabled: true
+  -
     id: lpj3gg90
     text:
       -
@@ -497,5 +503,5 @@ additional_image_s:
     enabled: true
     title: 'Press Release'
 updated_by: bfb27c3d-4566-4bfd-91d3-99770c39fce4
-updated_at: 1701223784
+updated_at: 1701226038
 ---
